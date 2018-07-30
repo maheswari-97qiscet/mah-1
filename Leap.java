@@ -21,7 +21,7 @@ if(n%4==0)
 		}
 		else
 		{
-		System.out.println("No");
+		System.out.println("no");
 		}
 	}	
 	else
@@ -31,7 +31,7 @@ if(n%4==0)
 }
 else
 {	
-	System.out.println("No");	
+	System.out.println("no");	
 	}
 }
 }
