@@ -9,7 +9,7 @@ class ArraySum1
 	{
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-	            int k=sc.nextInt();
+	        int k=sc.nextInt();
 		int sum=0,i;
 		int n1;
 		for(i=1;i<=n;i++)
