@@ -13,11 +13,25 @@ Scanner	sc=new	Scanner(System.in);
 int	n=sc.nextInt();
 if(n%4==0)
 {
-	System.out.println("Yes");
+	if(n%100==0)
+	{
+		if(n%400==0)	
+		{
+		System.out.println("yes");
+		}
+		else
+		{
+		System.out.println("No");
+		}
+	}	
+	else
+	{
+	System.out.println("yes");	
+	}
 }
 else
-{
-	System.out.println("No");
-}
+{	
+	System.out.println("No");	
 	}
+}
 }
