@@ -12,7 +12,7 @@ class Mul
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt(); 
 		int res,i;
-		for(i=1;i<=10;i++)
+		for(i=1;i<=5;i++)
 		{
 		   System.out.print(a*i+" ");
 		   
