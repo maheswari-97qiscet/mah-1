@@ -10,7 +10,7 @@ class Power
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		double res=Math.pow(a,b);
+		int res=(int)Math.pow(a,b);
 		System.out.println(res);
 	}
 }
