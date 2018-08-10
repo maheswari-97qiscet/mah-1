@@ -15,7 +15,7 @@ class NearestEven
 		int even=0;
 		if(a%2==0)
 		{
-			even=a-2;
+			even=a;
 		}
 		else
 		{
