@@ -15,11 +15,11 @@ class DiffEorO
 		int n2=sc.nextInt();
 		if((n1-n2)%2==0)
 		{
-			System.out.print("yes");
+			System.out.print("even");
 		}
 		else
 		{
-		System.out.print("no");
+		System.out.print("odd");
 		}
 	}
 }
