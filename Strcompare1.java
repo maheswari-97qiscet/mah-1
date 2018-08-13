@@ -13,11 +13,11 @@ class Strcompare1
 			Scanner sc=new Scanner(System.in);
 		String c=sc.next();
 		String c1=sc.next();
-		if(c.length()>c.length())
+		if(c.length()>c1.length())
 		{
 			System.out.println(c);
 		}
-		else if(c.length()<c.length())
+		else if(c.length()<c1.length())
 		{
 		System.out.println(c1);
 		}
