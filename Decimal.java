@@ -11,7 +11,8 @@ class Decimal
 	{
 		Scanner sc=new Scanner(System.in);
 		float f=sc.nextFloat();
-		int a=(int)(f+0.5);
+		int a=(int)(f);
+		a=a+1;
 		System.out.println(a);
 	
 	}
