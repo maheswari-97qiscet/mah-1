@@ -11,8 +11,8 @@ class Ascii
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		char ch='b';
-		int ascii=ch;
+		char s=sc.next().charAt(0);
+		int ascii=s;
 		System.out.println(ascii);
 	}
 }
