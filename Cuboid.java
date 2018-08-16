@@ -9,13 +9,14 @@ class Cuboid
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
+		
 		Scanner sc=new Scanner(System.in);
 		int l=sc.nextInt();
 		int w=sc.nextInt();
 		int h=sc.nextInt();
-		int Area=2*(l*w+w*h+h*l);
-		int vol=l*h*w;
+		int Area=2*((l*w)+(w*h)+(h*l));
+		int vol=l*w*h;
 		System.out.println(Area+" "+vol);
+
 	}
 }
