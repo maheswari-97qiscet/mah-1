@@ -23,11 +23,11 @@ class OddinNum
 		{
 			if(i==(n-1))
 			{
-			System.out.print(a[i]);	
+			System.out.print(i);	
 			}
 			else
 			{
-			System.out.print(a[i]+" ");	
+			System.out.print(i+" ");	
 			}
 		}
 		}
