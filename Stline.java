@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Stline
+class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -21,11 +21,13 @@ class Stline
 		{
 			System.out.print("yes");
 		}
+		else if(n1==n2&&n3==n4&&n5==n6||n2==n4&&n5==n6&&n1==n3&&n5==n6)
+		{
+		System.out.print("yes");	
+		}
 		else
 		{
 		System.out.print("no");	
 		}
-		
-
-	}
+		}
 }
