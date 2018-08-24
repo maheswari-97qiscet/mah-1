@@ -18,7 +18,7 @@ class Evenfactors
 			{
 				if(i%2==0)
 				{
-					if(i==n-1)
+					if(i==n)
 					{
 					System.out.print(i);
 					}
