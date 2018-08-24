@@ -28,11 +28,11 @@ class player32
 		 }
 		 if(count==1)
 		 {
-		System.out.print("yes");
+		System.out.print("Yes");
 		 }
 		 else
 		 {
-		 	System.out.print("no");
+		 	System.out.print("No");
 		 }
 
 	}
