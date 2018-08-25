@@ -12,7 +12,7 @@ class OddFactors
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int i;
-		for(i=1;i<=a;i++)
+		for(i=2;i<a;i++)
 		{
 			if(a%i==0)
 			{
