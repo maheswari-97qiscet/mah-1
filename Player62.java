@@ -18,7 +18,7 @@ class Player62
 			{
 			x=n/i;
 			if(x%2==1)
-			{a
+			{
 			System.out.print(i);
 			break;
 			}
