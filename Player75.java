@@ -22,7 +22,7 @@ class Player75
 		{
 			for(j=i+1;j<n;j++)
 			{
-				if(i<j)
+				if(a[i]<a[j])
 				{
 					count++;
 				}
