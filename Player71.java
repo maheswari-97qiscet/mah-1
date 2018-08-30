@@ -17,7 +17,7 @@ class Player71
 		{
 			a[i]=sc.nextInt();
 		}
-		for(i=0;i<n;i++)
+		for(i=0;i<n-1;i++)
 		{
 			if(a[i]>a[i+1])
 			{
