@@ -23,7 +23,7 @@ class PlAYER94
 					}
 				}
 				}
-				if(count>1)
+				if(count>0)
 				{
 					System.out.print("yes");
 				}
