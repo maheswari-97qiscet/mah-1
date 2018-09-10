@@ -9,22 +9,18 @@ class Player15
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		// your code goes here
+				String str;
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
-		int i,j;
-		char d=' ';
-		for(i=0;i<s.length();i++)
-		{
-			for(j=i+1;j<s.length();j++)
-			{
-				if(s.charAt(i)==s.charAt(j))
-				{
-				d=s.charAt(j);
-				}
-				
+		str=sc.nextLine();
+		char[] a=str.toCharArray();
+                char d=' ';
+		for(int i=0;i<a.length-1;i++){  
+			if(a[i]==a[i+1]){
+			d=a[i+1];
 			}
-		
 		}
+		
 		System.out.print(d);
 
 	}
