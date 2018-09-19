@@ -12,11 +12,11 @@ class Player194
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.next();
 		String s2=sc.next();
-		if((s1=="P"&&s2=="S")||(s1=="S"&&s2=="P"))
+		if(((s1.equals("P"))&&(s2.equals("S")))||((s1.equals("S"))&&(s2.equals("P"))))
 		{
 			System.out.print("S");
 		}
-		else if((s1=="P"&&s2=="R")||(s1=="R"&&s2=="P"))
+		else if(((s1.equals("P"))&&(s2.equals("R")))||((s1.equals("R"))&&(s2.equals("P"))))
 		{
 			System.out.print("P");	
 		}
@@ -28,5 +28,6 @@ class Player194
 		{
 			System.out.print("R");
 		}
+
 	}
-}
+}	
